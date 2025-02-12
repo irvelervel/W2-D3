@@ -118,3 +118,16 @@ const className = 'FS0125'
 if (className) {
   console.log('Che bella classe')
 }
+
+// in JS TUTTI i valori sono TRUTHY
+// ...a parte...
+// 0
+// undefined
+// null
+// ""
+// -0
+// NaN
+
+if ('') {
+  // NON ENTRIAMO
+}
