@@ -36,6 +36,15 @@ console.log(pet[myProperty]) // ??? -> pet["age"] -> pet.age -> 4
 // SOVRASCRIVERE PROPRIETÀ
 pet.age = 5 // non è più 4
 
+// SCORCIATOIE OPERATORI MATEMATICI
+// let number = 10
+// number = number + 1 // 11
+// // number += 5
+// number -= 1
+
+// number++
+// number += 1
+
 // AGGIUNGERE PROPRIETÀ
 pet.nonesiste = false
 console.log(pet.nonesiste) // false
