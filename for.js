@@ -57,6 +57,9 @@ arrayOfNames[6]
 for (let i = 0; i < arrayOfNames.length; i++) {
   // charAt(0) è la PRIMA LETTERA di quella stringa
   if (arrayOfNames[i].charAt(0) === 'M') {
+    // qui dentro non entreranno sicuramente Barbara, Engi, Felice etc.
     console.log('QUESTO NOME COMINCIA CON LA M', arrayOfNames[i])
   }
 }
+
+'Noa'.charAt(2) // 'a'
